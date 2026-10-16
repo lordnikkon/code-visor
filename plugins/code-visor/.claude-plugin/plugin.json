@@ -1,0 +1,38 @@
+{
+  "name": "code-visor",
+  "version": "1.0.0",
+  "description": "Code Visor for Claude, a HUD above the Claude Code prompt: model, prompt-cache countdown and context fill, a live progress bar while subagents run, and an agents panel with cost, tokens and time per subagent.",
+  "author": {
+    "name": "Patrick Chevalier",
+    "url": "https://github.com/lordnikkon"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "auto follows Claude Code's language setting, then the system locale; en, ru or he pick one (Hebrew is laid out right to left)",
+      "default": "auto",
+      "options": [
+        "auto",
+        "en",
+        "ru",
+        "he"
+      ]
+    },
+    "autoOpen": {
+      "type": "string",
+      "title": "Open the agents panel automatically",
+      "description": "subagent: when the first subagent of a session starts; session: when a session starts; off: only with /agents-info",
+      "default": "subagent",
+      "options": [
+        "subagent",
+        "session",
+        "off"
+      ]
+    }
+  },
+  "homepage": "https://github.com/lordnikkon/code-visor",
+  "repository": "https://github.com/lordnikkon/code-visor",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "chvlr",
+  "owner": {
+    "name": "Patrick Chevalier",
+    "url": "https://github.com/lordnikkon"
+  },
+  "metadata": {
+    "description": "Claude Code mods by Patrick Chevalier."
+  },
+  "plugins": [
+    {
+      "name": "code-visor",
+      "source": "./plugins/code-visor",
+      "description": "Code Visor for Claude. Mod: a HUD above the prompt with model, prompt-cache countdown and context bar, live subagent progress, and an agents panel.",
+      "version": "1.0.0",
+      "category": "mod"
+    }
+  ]
+}
